@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Glass+Antiqua&family=Josefin+Slab&family=Luckiest+Guy&family=Poppins:wght@300&family=Roboto+Condensed&family=Roboto+Slab:wght@500&family=Saira:wght@300&family=Titillium+Web:wght@300&family=Wellfleet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/main-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
+
+#head{
+    transition: all .5s ease;
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#exp{
+    transition: all .5s ease;
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.search{
+    width: 40vw;
+    height: 50vh;
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 30px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(150%);
+    position: absolute;
+    transition: all .5s ease;
+}
+
+.search h4{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Saira';
+    margin-bottom: 30px;
+}
+
+.search span{
+    font-family: 'Saira';
+    color: #dd5454e7;
+}
+
+#year-elm{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 25px;
+    box-shadow: 6px 6px 1px #000;
+}
+
+#year-elm::placeholder{
+    font-size: 1.02rem;
+}
+
+.search img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 210px;
+    top: 195px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.search img:hover{
+    transform: rotate(90deg);
+}
+
+.search p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Titillium Web';
+    margin-top: 30px;
+    text-align: center;
+}
+
+#random-btn, #more-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 6px 6px 1px #000;
+    background-color: #dd5454e7;
+    transition: all .4s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+#random-btn:hover, #more-btn:hover{
+    background-color: #c74040e7;
+    color: #000;
+}
+
+.main-text{
+    width: 80%;
+    height: 100vh;
+    padding: 100px 0;
+    margin-left: -100px;
+}
+
+.main-text h1{
+    color: #fff;
+    font-size: 3.6rem;
+    font-family: 'Wellfleet';
+    line-height: 80px;
+}
+
+.main-text p{
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 30px;
+    line-height: 45px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.close{
+    width: 100%;
+    padding: 15px;
+}
+
+.close img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
