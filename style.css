@@ -83,18 +83,18 @@ body{
     box-shadow: 6px 6px 1px #000;
 }
 
+.main{
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+}
+
 #year-elm::placeholder{
     font-size: 1.02rem;
 }
 
 .search img{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 210px;
-    top: 195px;
     cursor: pointer;
-    transition: all .6s ease;
 }
 
 .search img:hover{
