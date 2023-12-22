@@ -97,10 +97,6 @@ body{
     cursor: pointer;
 }
 
-.search img:hover{
-    transform: rotate(90deg);
-}
-
 .search p{
     color: #fff;
     font-size: 1.2rem;
