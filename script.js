@@ -24,11 +24,11 @@ randomBtn.addEventListener('click', () => {
     let timePeriods = ['AD', 'BC']
     let timePeriod = timePeriods[randSelect]
 
-    let randNum = Math.round(Math.floor(Math.random() * 1000 / 100) * 100)
+    let randNum = Math.round(Math.floor(Math.random() * 2000 / 100) * 100)
     yearInp.value = `${timePeriod} ` + randNum
 
-    if(timePeriod === 'AD' && randNum > 2000){
-       yearInp.value = `${timePeriod} ` + Math.round(Math.floor(Math.random() * 2000 / 100) * 100)
+    if(timePeriod === 'BC' && randNum > 1000){
+       yearInp.value = `${timePeriod} ` + Math.round(Math.floor(Math.random() * 1000 / 100) * 100)
     }
 })
 
